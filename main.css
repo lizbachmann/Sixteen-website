@@ -2,27 +2,34 @@ body {
     width: 360px;
 
 }
+
 header {
     background-color: #acd373;
 }
-.navigation {
+.nav_bar {
 background:#acd373;
     height: 40px; 
     width: 360px;
     display: inline-block;
    
 }
+
 .content {
 background:#9abd67;
     height: 350px;
     background-image: url(images/silhuet.png);
         background-repeat: no-repeat;
     background-position: bottom;
-    position: static;
+    position: relative;
 text-align: center;
+    padding-top: 70px;
 
-  
 }
+ span {
+padding: 25px;
+display: block;
+}
+
 .content h1 {
     font-family: 'Source Sans Pro';
     font-weight: 700;
@@ -33,23 +40,44 @@ text-align: center;
 }
 .content img {
 bottom: 4373px;
-    
+}
+#mobile {
+padding-left: 39%;
+    padding-top: 40px;
+    padding-bottom: 22px;
+   
+}
+
+.who_are_we h2 {
+text-align: justify;
+    background: url(images/manlogo.png) no-repeat;
+    padding-left: 33px;
+    padding-bottom: 10px;
+    display: inline;
     
 }
-.content p {
+h2 {
+color: black;
+    font-size: 30px;
+    font-family: 'Source Sans Pro';
+    padding-left: 35px;
+}
+ p.main {
+    padding: 30px;
+    width: 298px;
+    height: 60px;
+    font-family: 'Source Sans Pro';
+    color: #454545;
+    font-size: 13px; 
+    text-align: justify;
+}
+
+
+.content span {
     color: white;
     font-family: DroidSerif;
 }
-.section {
-    padding: 20px;
-    text-align: center;
-height: 14px;
-    width: 292px;
-    vertical-align: text-top;
-    text-align: center;
-    display: inline;
-  
-}
+
 .section mobile{
         right: 441px;
         top: 433px;
@@ -57,16 +85,16 @@ height: 14px;
     text-align: center;
        
     }
-.section manlogo h2{
-display: inline;
-}
+
 p.one {
     border-style: solid;
     border-color: #acd373;
-    border-width: 2px;
-    padding: 10px 10px;
-    width: 89px;
-    height: 28px;
+   border-width: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    width: 88px;
+    height: 30px;
     text-align: center;
     
 }
