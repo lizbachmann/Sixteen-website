@@ -5,15 +5,20 @@ body {
 
 header {
     background-color: #acd373;
+      height: 40px; 
+    width: 360px;
 }
 .nav_bar {
 background:#acd373;
-    height: 40px; 
-    width: 360px;
     display: inline-block;
-   
 }
-
+ .toggle {
+display: inline;
+    margin: 0;
+     float: right;
+       height: 40px;
+    width: 40px;
+}
 .content {
 background:#9abd67;
     height: 350px;
@@ -37,6 +42,7 @@ display: block;
     display: inline;
     color: white;
     padding-top: 80px;
+
 }
 .content img {
 bottom: 4373px;
@@ -62,6 +68,9 @@ color: black;
     padding-left: 20px;
     object-position:left;
 }
+.secondpart{
+background-color: #f7f7f7;
+}
  p.main {
     padding: 30px;
     width: 298px;
@@ -82,10 +91,11 @@ color: black;
         right: 441px;
         top: 433px;
         padding: 20px;
-    text-align: center;
-       
+    text-align: center;    
     }
-
+.container {
+background-color: #f7f7f7;
+}
 p.one {
     border-style: solid;
     border-color: #acd373;
