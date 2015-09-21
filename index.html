@@ -1,61 +1,95 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
+
 <head>
- 
-  <meta charset="utf-8">
-  <link rel ="stylesheet" type="text/css" href="main.css">
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-  <title></title>
-</head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>  
 <body>
-<section class="nav_bar">
-   <header>
-        <img src="images/sixteenlogo.png" alt="Sixteen Logo">
-<section class="toggle"> 
-      <img src="images/toggle.png" alt="navigation";
-       </section>
- </section>
-       
-     </header>
-<section class="content">
-    <h1>WE ARE SIXTEEN DIGITAL AGENCY</h1>   
-    <span><em>Based on  Jakarta, Indonesia</em></span>
-    <br>
- 
-    <img src="images/arrow.png" alt="Arrow" width="25" height="14">
-</section>
-<section class="secondpart">
-  <div id="mobile">
-     <img src="images/mobile_07.png" alt="Iphone" height="207" width="78">
-    </div>
- <section class="who_are_we">
-        <h2>WHO WE ARE</h2>
-    <p class="main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam in omnis voluptates, optio architecto doloremque eius, nihil, error nemo cum ad consequuntur numquam saepe quibusdam nam dolore sunt</p>
-   <p class="one">Learn More</p>
-    </section>
-    </section>
+  <!-- navigation and logo -->
+  <header>
+     <a href="#learnmore" class="logo">
+      <img src="images/sixteenlogo.png" alt="Sixteen" class="logo">
+     </a>
+    <nav></nav>
+   </header>
+    <!-- greeting -->
+  <section class="greeting">
+    <div>
+          <h1>We Are Sixteen Digital Agency</h1>
+          <span>Based on Jakarta, Indonesia</span>
+       </div>
+  <img src="images/arrow.png" alt="arrow" class="arrow">
+  </section>
+   <!-- Who we are  -->
 
-<div class="container">
-    <div class="video">
-        <video poster="images/collegestudents.jpg" alt="Video"></video>
-    </div>
+   
+    <section class="who-we-are">
+        <img class="iphone" src="images/mobile_07.png" alt="iphone">
+        <p><img src="images/manlogo.png" alt="small guy"><span id="title">&nbsp; &nbsp;WHO WE ARE</span></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit quam in omnis voluptates, optio architecto doloremque eius, nihil, error nemo cum ad consequuntur numquam saepe quibusdam nam dolore sunt aliquam. Modi, ut error voluptas iure, nemo, est.</p>
+        <a href="#" class="learnmore" class="learnmore">Learn More</a>
+    </section>
+<!-- end second section-->
+  
+   <!--video section-->
+    <section class="video-learnmore">
+        <video src="Mazda360p.mp4" poster="images/collegestudents.jpg" controls width="360" height="261"></video>
+    </section>
+    <!--end video section--> 
+    
+ <!-- Top: Our Services Section -->
+   
+    <section class="services_section">
+        <div class="head_combo1">
+            <h2 id="h2_ver_2">OUR <span id="green_text"> SERVICES</span> </h2>
+            <h3>“ Asperiores ea commodi eius a quo omnis esse ”</h3>
+            <img class="ellipsebar" src="images/ellipse.png" alt="black sepretor">
+            <hr>
+        </div>
+        <!--End our services -->
 
-   <section class="ourservices">
-       <h3>Our Service</h3>
-       <p3>&#8220; Asperiores ea commodi eius a quo omnis esse &#8221;</p3>
-   </section>
-   <section class="graphicdesign">
-       <h4>graphic design</h4>
-       <p4>Eius quae. Eveniet veniam repelledus eos, vitae repudiandae deleniti dol rum</p4>
-   </section>
-   <section class="mobileapp">
-       <h5>mobile app development</h5>
-       <p5>Repellendus consequatur perferendis vitae neque eum similique possimus facilis</p5>
-   </section>
-   <section class="webdesign">
-       <h6>web design & development</h6>
-       <p6>inventore nesciunt velit voluptas ac santium harum temporibus</p6>
-   </section>
-   </div>
+
+        <div class="Services">
+            <div class="service_icons_holder">
+                <ul>
+                    <li><img src="images/paintbrushlogo.png" alt="brush pic"></li>
+                    <li><img src="images/mobilelogo.png" alt="tiny phone pic"></li>
+                    <li><img src="images/monitiorlogo.png" alt="super small monitor pic"></li>
+                </ul>
+            </div>
+            <!--End of services icons holder -->
+
+            <div class="service_text_holder">
+                <ul>
+                    <li class="Service_Block">
+                        <p class="service_head">graphic design</p>
+                        <p class="service_sub">Eius quae. Eveniet veniam repelledus eos, vitae repudiandae deleniti dol rum</p>
+                    </li>
+                    <!--Individual Service Block 1-->
+
+                    <li class="Service_Block">
+
+                        <p class="service_head">modile app development</p>
+                        <p class="service_sub">Repellendus consequatur perferendis vitae neque eum similique possimus facilis</p>
+                    </li>
+                    <!--Individual Service Block 2-->
+
+                    <li class="Service_Block">
+                        <p class="service_head">web design & development</p>
+                        <p class="service_sub">inventore nesciunt velit voluptas ac santium harum temporibus</p>
+                    </li>
+                    <!--Individual Service Block 3-->
+                </ul>
+            </div>
+            <!--End of Services Text Div-->
+        </div>
+        <!--End of Services Div-->
+        <input type="button" name="" class="button" id="service_button" value="Learn More">
+    </section>
+    <!--end Services Section -->
+
+  
     </body>
 </html>

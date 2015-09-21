@@ -1,171 +1,512 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+
+html {
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/**
+ * Remove default margin.
+ */
+
 body {
-    width: 360px;
-
+  margin: 0;
 }
 
-header {
-    background-color: #acd373;
-      height: 40px; 
-    width: 360px;
-}
-.nav_bar {
-background:#acd373;
-    display: inline-block;
-      height: 40px; 
-    width: 360px;
-}
- .toggle {
-display: inline;
-    margin: 0;
-     float: right;
-       height: 40px;
-    width: 40px;
-}
-.content {
-background:#9abd67;
-    height: 350px;
-    background-image: url(images/silhuet.png);
-        background-repeat: no-repeat;
-    background-position: bottom;
-   
-text-align: center;
-    padding-top: 70px;
+/* HTML5 display definitions
+   ========================================================================== */
 
-}
- span {
-padding: 25px;
-display: block;
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
 }
 
-.content h1 {
-    font-family: 'Source Sans Pro';
-    font-weight: 700;
-    font-size: 20px;
-    display: inline;
-    color: white;
-    padding-top: 80px;
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
 
-}
-.content img {
-bottom: 4373px;
-}
-#mobile {
-padding-left: 39%;
-    padding-top: 40px;
-    padding-bottom: 22px;
-   
+audio,
+canvas,
+progress,
+video {
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
 }
 
-.who_are_we h2 {
-text-align: left;
-    background: url(images/manlogo.png) no-repeat;
-    padding-left: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.who_are_we {
-background-color: #f7f7f7;
-}
-h2 {
-color: black;
-    font-size: 30px;
-    font-family: 'Source Sans Pro';
-    padding-left: 20px;
-    object-position:left;
-}
-.secondpart{
-background-color: #f7f7f7;
-}
- p.main {
-    padding: 30px;
-    width: 298px;
-    height: 60px;
-    font-family: 'Source Sans Pro';
-    color: #454545;
-    font-size: 13px; 
-    text-align: justify;
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
 }
 
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
 
-.content span {
-    color: white;
-    font-family: DroidSerif;
+[hidden],
+template {
+  display: none;
 }
 
-.section mobile{
-        right: 441px;
-        top: 433px;
-        padding: 20px;
-    text-align: center;    
-    }
-.container {
-background-color: #f7f7f7;
+/* Links
+   ========================================================================== */
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
 }
-p.one {
-    border-style: solid;
-    border-color: #acd373;
-   border-width: 2px;
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+
+b,
+strong {
+  font-weight: bold;
+}
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+
+img {
+  border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/**
+ * Contain overflow in all browsers.
+ */
+
+pre {
+  overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+
+button {
+  overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+
+button,
+select {
+  text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button; /* 2 */
+  cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+
+input {
+  line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+
+input[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box; /* 2 */
+  box-sizing: content-box;
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+
+legend {
+  border: 0; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+
+textarea {
+  overflow: auto;
+}
+html {
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+}
+body {
+  width: 360px;
+}
+header{
+    background: #acd373 url(images/toggle.png) no-repeat right;
+}
+header .logo{
     padding-left: 10px;
-    padding-right: 10px;
     padding-top: 5px;
-    width: 88px;
-    height: 30px;
-    text-align: center;
-    
 }
-.one {
-background-color: #f7f7f7;
+.greeting {
+  height: 350px;
+   background:#9abd67 url(images/silhuet.png) no-repeat bottom;
+  position: relative;
+  color: #fff;
+  text-align: center;
 }
-.container video {
-width: 360px;
+
+.greeting h1{
+  margin-top: 0;
+    font-family:'Source Sans Pro', sans-serif;
+    font-size:20px;
+}
+span {
+font: italic 13px DroidSerif;
+}
+.arrow {
+padding-top:50px;
+}
+div {
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 95px;
+}
+/* contains the heading, span and image*/
+
+div img {
+  padding-top: 20px; 
+}
+/* the arrow position*/
+
+.who-we-are {
+    height: 500px;
+    background-color: #f7f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* fonts are incorrect*/
+.iphone {
+padding: 40px 140px ;
+}
+
+#title {
+padding-left: 5px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: absolute;
+}
+.who-we-are p {
+font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* need to move the 'learn more' link */
+
+.learnmore {
+    border:1px solid #acd373;
+    color: #acd473;
+    font: italic 11px Droid_Serif;
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+    margin-left: 15px;
+}
+.video-learnmore {
     height: 261px;
-    /* insert overlay and video icon */
+    background-color: #f7f7f7;
 }
-.ourservices h3{
-    font-family:'Source Sans Pro';
+/* service section unorderlist*/
+.services_section {
+height: 500px;
+    background-color: #f7f7f7;
+}
+
+#green_text {
+color: #acd373;
+   font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
     text-align: center;
-    text-transform: uppercase;
-    /* Insert ellipse immage below h3 */
 }
-.graphicdesign h4 {
-   text-align: left;
-    position: relative;
-    background: url(images/paintbrushlogo.png) no-repeat;
-    padding-left: 65px;
-    padding-top: 35px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    font: 700 17.78px 'Source Sans Pro';
-    color: #acd373;
-     /* need to format header and paragraph for this section, resize mobile logo in photoshop*/
+#h2_ver_2 {
+color: #454545;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    text-align: center;
 }
-.mobileapp h5{
-     text-align:justify;
-    position: relative;
-    background: url(images/mobilelogo.png) no-repeat;
-    padding-left: 35px;
-    padding-top: 35px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    font: 700 17.78px 'Source Sans Pro';
-    color: #acd373;
-     /* need to format header and paragraph for this section, resize mobile logo in photoshop*/
-    /* need to format header and paragraph for this section*/
+h3 {
+color: #454545;
+    font: 12px Droid_Serif;
+    text-align: center;
 }
-p4 p5 p6 {
-    font-family: 'Source Sans Pro';
-        font-size: 16.51px;
-    text-align: justify;
-    position: relative;
-}
-.webdesign h6{
-     text-align: left;
-    background: url(images/monitiorlogo.png) no-repeat;
-    padding-left: 60px;
-    padding-top: 44px;
-    padding-bottom: 10px;
-    text-transform: uppercase;
-    font: 700 17.78px 'Source Sans Pro';
-    color: #acd373;
- /* need to format header and paragraph for this section*/
+div .ellipsebar {
+    position: absolute;
+    left: 177px;
+    width: 6px;
+    height: 6px;
+    
 }
