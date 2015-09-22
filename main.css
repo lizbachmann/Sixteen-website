@@ -454,7 +454,8 @@ padding: 40px 140px ;
 }
 
 #title {
-padding-left: 5px;
+padding-left: 2px;
+    padding-top: 7px;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
     position: absolute;
@@ -462,19 +463,13 @@ padding-left: 5px;
 .who-we-are p {
 font-size: 13px;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-left: 20px;
+    padding-left: 22px;
     padding-right: 20px;
 }
 /* need to move the 'learn more' link */
 
 .learnmore {
     border:1px solid #acd373;
-    color: #acd473;
-    font: italic 11px Droid_Serif;
-    text-decoration: none;
-    display: inline;
-    padding: 5px;
-    margin-left: 15px;
 }
 .video-learnmore {
     height: 261px;
@@ -546,14 +541,149 @@ font-size: 12px;
     vertical-align: top;
     margin-left: 20px;
 }
+
+.service-icon {
+padding-top: 20px;
+} 
+
 .button {
-  border:1px solid #acd373;
-   font: italic 11px DroidSerif;
-    padding: 6px 6px;  
-}
-.button1 {
+    width: 89px;
+    height: 28px;
+    border-width: 1px solid #acd373;
+    font:italic 11px DroidSerif;
 position: relative;
     top: 50px;
-    left: 90px;
+    left: 130px;
     padding: 0;
+} 
+.meet {
+height: 485px;
+    background-color: #acd373;
+}
+.meetteam {
+color: #f7f7f7;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.meetteam > h1 {
+    font-family:'Source Sans Pro', sans-serif;
+    font-size: 20.54px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.meetteam > p {
+font-family: DroidSerif;
+    font-weight: 300;
+    text-align: center;
+}
+.ellipsebar {
+padding-left: 130px;
+}
+.teammates {
+    position: relative;
+    width: 200px;
+    height: 182px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    margin: 50px auto;
+}
+/*.teammates ceo {
+position: absolute;
+top: -45px;
+left: 58px;
+} */
+.john-doe {
+font-family: 'Source Sans Pro', sans-serif;
+    color: #acd373;
+    padding-left: 55px;
+}
+.job-role {
+    padding-top: 45px;
+  margin: -20px;
+    padding-left: 30px;
+}
+.job-title {
+font-family: DroidSerif;
+    color: #787878;
+    font-size: 12px;
+    padding-left: 50px;
+}
+
+.ceo {
+position: absolute;
+    top: -35px;
+    left: 58px;
+border: 5px solid #acd373;
+    border-radius: 50%;
+}
+.social-media {
+    margin-top: 30px;
+padding-left: 55px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #ebebeb;
+}
+ .media-social {
+    display: inline-block;
+     padding-top: 25px;
+     padding-left: 5px; 
+}
+.footer {
+ height: 66px;
+    background-color: #9abd67;
+    display: block;
+    position: relative;
+    top:15px;
+   
+}
+.footer p {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f7f7f7;
+    display: inline;
+    margin-left: 10px;
+}
+.button2 {
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+.our-work {
+height: 520px;
+    background-color: #f7f7f7;
+}
+.recent-works h1 {
+ color: #454545;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.recent-works span {
+color: #acd373;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.recent-works {
+ padding-top: 25px;
+    padding-left: 20px;
+}
+/*.screenshot {
+padding-left: 30px;
+    padding-top: 40px;
+}*/
+.letoy-themes {
+width: 300px;
+    background-color: #ebebeb;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+.logos {
+height: 80px;
+    background-color: #ebebeb;
+}
+.envato {
+padding-left: 20px;
+    padding-top: 30px;
+    display: inline-block;
 }
