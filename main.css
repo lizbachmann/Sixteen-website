@@ -431,14 +431,14 @@ font: italic 13px DroidSerif;
 .arrow {
 padding-top:50px;
 }
-div {
+div.sixteen {
   padding-right: 25px;
   padding-left: 25px;
-  padding-top: 95px;
+    padding-top: 95px;
 }
 /* contains the heading, span and image*/
 
-div img {
+.sixteen img {
   padding-top: 20px; 
 }
 /* the arrow position*/
@@ -484,11 +484,14 @@ font-size: 13px;
 .services_section {
 height: 500px;
     background-color: #f7f7f7;
-    margin-top: 0;
 }
 
 h {
 text-align: center;
+    width: 360px;
+    padding-left: 80px;
+    padding-top: 12px;
+    margin-top: 40px;
 }
 #green_text {
 color: #acd373;
@@ -503,19 +506,26 @@ color: #454545;
     text-align: center;
 }
 h3 {
+    width: 270px;
+    padding-left: 40px;
 color: #454545;
     font: 12px Droid_Serif;
     text-align: center;
 }
-
+hr {
+    margin: 0;
+width: 76px;
+    text-align: center;
+}
  /* service section list with icons*/
 
 ul {
 list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 h2 {
     font-family: 'Source Sans Pro' sans-serif;
-    left: 101px;
     font-size: 14px;
     text-transform: uppercase;
     color: #acd373;
@@ -524,8 +534,17 @@ p {
 font-size: 12px;
     font-family: 'Source Sans Pro', sans-serif;
 }
-.paintbrush {
-float: left;
+.service-img {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+.service-info {
+    width:280px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
 }
 .button {
   border:1px solid #acd373;
