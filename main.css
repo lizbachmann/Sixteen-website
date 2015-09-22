@@ -480,10 +480,15 @@ font-size: 13px;
     height: 261px;
     background-color: #f7f7f7;
 }
-/* service section unorderlist*/
+/* service section heading*/
 .services_section {
 height: 500px;
     background-color: #f7f7f7;
+}
+.services_section div {
+margin: 0;
+    padding: 0 auto;
+ /* service section list with icons*/
 }
 
 #green_text {
@@ -507,6 +512,35 @@ div .ellipsebar {
     position: absolute;
     left: 177px;
     width: 6px;
-    height: 6px;
-    
+    height: 6px;   
+}
+ /* service section list with icons*/
+
+ul {
+list-style-type: none;
+}
+h2 {
+    font-family: 'Source Sans Pro' sans-serif;
+    left: 101px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #acd373;
+}
+p {
+font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.paintbrush {
+float: left;
+}
+.button {
+  border:1px solid #acd373;
+   font: italic 11px DroidSerif;
+    padding: 6px 6px;  
+}
+.button1 {
+position: relative;
+    top: 50px;
+    left: 90px;
+    padding: 0;
 }
