@@ -484,13 +484,12 @@ font-size: 13px;
 .services_section {
 height: 500px;
     background-color: #f7f7f7;
-}
-.services_section div {
-margin: 0;
-    padding: 0 auto;
- /* service section list with icons*/
+    margin-top: 0;
 }
 
+h {
+text-align: center;
+}
 #green_text {
 color: #acd373;
    font-family: 'Source Sans Pro', sans-serif;
@@ -508,12 +507,7 @@ color: #454545;
     font: 12px Droid_Serif;
     text-align: center;
 }
-div .ellipsebar {
-    position: absolute;
-    left: 177px;
-    width: 6px;
-    height: 6px;   
-}
+
  /* service section list with icons*/
 
 ul {
