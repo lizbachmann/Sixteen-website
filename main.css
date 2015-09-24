@@ -401,14 +401,19 @@ textarea {
 }
 html {
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+      box-sizing: border-box;
 }
 body {
   width: 360px;
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 header{
     background: #acd373 url(images/toggle.png) no-repeat right;
 }
-header .logo{
+header .logo {
     padding-left: 10px;
     padding-top: 5px;
 }
@@ -516,7 +521,7 @@ width: 76px;
 
 ul {
 list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 h2 {
@@ -540,6 +545,10 @@ font-size: 12px;
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
+}
+.service-info p {
+height: 29px;
+width: 214px;
 }
 
 .service-icon {
@@ -664,19 +673,10 @@ color: #acd373;
     font-size: 20px;
     text-transform: uppercase;
 }
-.recent-works {
- padding-top: 25px;
-    padding-left: 20px;
-}
-/*.screenshot {
-padding-left: 30px;
-    padding-top: 40px;
-}*/
-.letoy-themes {
-width: 300px;
-    background-color: #ebebeb;
-    padding-left: 30px;
-    padding-top: 40px;
+
+.our-work {
+width: 360px;
+height: 520px;
 }
 .logos {
 height: 80px;
@@ -686,4 +686,21 @@ height: 80px;
 padding-left: 20px;
     padding-top: 30px;
     display: inline-block;
+}
+.testimonials {
+    width: 360px;
+    height: 562px;
+    background-image: url(images/background-02.jpg);
+}
+.quote-box {
+border: 2px solid #f7f7f7;
+    width: 298px;
+    height: 85px;
+    margin: 0 auto;
+}
+blockquote {
+padding-bottom: 10px;
+    color: #f7f7f7;
+    font-size: 13px;
+    font-family: DroidSerif;
 }
