@@ -465,114 +465,103 @@ padding-left: 2px;
     font-family: 'Source Sans Pro', sans-serif;
     position: absolute;
 }
+.who-bottom {
+padding-left: 22px;
+}
 .who-we-are p {
 font-size: 13px;
     font-family: 'Source Sans Pro', sans-serif;
-    padding-left: 22px;
     padding-right: 20px;
 }
 /* need to move the 'learn more' link */
 
 .learnmore {
-    border:1px solid #acd373;
+border: 1px solid #acd373;
+    padding: 7px 5px 5px 5px;
+    font-size: 13px;
+    color: #acd373;
+    font-family: DroidSerif;
+    text-decoration: none;
+        
 }
 .video-learnmore {
     height: 261px;
     background-color: #f7f7f7;
 }
 /* service section heading*/
-.services_section {
-height: 500px;
-    background-color: #f7f7f7;
-}
-
-h {
+.heading {
 text-align: center;
-    width: 360px;
-    padding-left: 80px;
-    padding-top: 12px;
-    margin-top: 40px;
 }
-#green_text {
-color: #acd373;
-   font-family: 'Source Sans Pro', sans-serif;
-    font-size: 23px;
-    text-align: center;
-}
-#h2_ver_2 {
-color: #454545;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 23px;
-    text-align: center;
-}
-h3 {
-    width: 270px;
-    padding-left: 40px;
-color: #454545;
-    font: 12px Droid_Serif;
-    text-align: center;
-}
-hr {
-    margin: 0;
-width: 76px;
-    text-align: center;
-}
- /* service section list with icons*/
 
-ul {
+.services_section h3 {
+color: #454545;
+   font: 14px DroidSerif;
+}
+
+.services_section {
+    height: 500px;
+    background-color: #f7f7f7;
+    padding-top: 10px;
+}
+
+.services ul {
 list-style-type: none;
-    margin: 0 auto;
+    margin: 0 auto; 
     padding: 0;
 }
-h2 {
+.service-icon h2 {
     font-family: 'Source Sans Pro' sans-serif;
     font-size: 14px;
     text-transform: uppercase;
     color: #acd373;
 }
-p {
-font-size: 12px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
+
 .service-img {
     display: inline-block;
     vertical-align: top;
     margin-top: 9px;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 .service-info {
-    width:280px;
+    width: 204px;
     display: inline-block;
     vertical-align: top;
-    margin-left: 20px;
+    margin-left: 28px;
 }
 .service-info p {
 height: 29px;
-width: 214px;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .service-icon {
 padding-top: 20px;
+    padding-left: 24px;
 } 
 
-.button {
-    width: 89px;
-    height: 28px;
-    border-width: 1px solid #acd373;
-    font:italic 11px DroidSerif;
-position: relative;
-    top: 50px;
-    left: 130px;
-    padding: 0;
-} 
+.button1 a {
+border: 1px solid #acd373;
+    font-size: 13px;
+    color: #acd373;
+    font-family: DroidSerif;
+    text-decoration: none;
+      padding: 7px 5px 5px 5px;
+        margin-left: 40px;
+}
+.button1 {
+margin-top: 10px;
+    padding-left: 83px;
+}
+ /* Begin meet the team section*/
 .meet {
-height: 485px;
+height: 429px;
     background-color: #acd373;
 }
 .meetteam {
 color: #f7f7f7;
     padding-top: 15px;
     padding-left: 10px;
+    text-align: center;
 }
 
 .meetteam > h1 {
@@ -583,12 +572,10 @@ color: #f7f7f7;
 }
 .meetteam > p {
 font-family: DroidSerif;
-    font-weight: 300;
+   font-size: 12px;
     text-align: center;
 }
-.ellipsebar {
-padding-left: 130px;
-}
+
 .teammates {
     position: relative;
     width: 200px;
@@ -628,23 +615,26 @@ border: 5px solid #acd373;
 }
 .social-media {
     margin-top: 30px;
-padding-left: 55px;
+    height: 52px;
+    width: 200px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     background-color: #ebebeb;
 }
  .media-social {
     display: inline-block;
-     padding-top: 25px;
-     padding-left: 5px; 
+     text-align: center;
+padding-top: 14px;
+     padding-left: 10px;
 }
+
+/* Meet the team footer*/
+
 .footer {
- height: 66px;
-    background-color: #9abd67;
-    display: block;
-    position: relative;
-    top:15px;
-   
+    padding-top: 23px;
+    height: 35px;
+     background-color: #9abd67;
+    
 }
 .footer p {
     font-family: 'Source Sans Pro', sans-serif;
@@ -652,14 +642,24 @@ padding-left: 55px;
     display: inline;
     margin-left: 10px;
 }
-.button2 {
-    display: inline-block;
-    float: right;
-    margin-right: 10px;
+.footer a {
+border: 1px solid #f7f7f7;
+    font-size: 13px;
+    color: #f7f7f7;
+    font-family: DroidSerif;
+    text-decoration: none;
+      padding: 7px 5px 5px 5px;
+        margin-left: 40px;
 }
+/* end meet team footer section*/
+/* Begin OUR WORKS section*/
 .our-work {
 height: 520px;
     background-color: #f7f7f7;
+padding-top: 30px;
+}
+.recent-works {
+text-align: center;
 }
 .recent-works h1 {
  color: #454545;
@@ -673,34 +673,234 @@ color: #acd373;
     font-size: 20px;
     text-transform: uppercase;
 }
-
-.our-work {
-width: 360px;
-height: 520px;
+.recent-works p {
+font-size: 13px;
+    font-family: DroidSerif;
 }
+
+/* Recent works image*/
+.wrapper {
+text-align: center;
+}
+.view-work {
+padding-top: 30px;
+text-align: center;
+}
+.view-work a {border: 1px solid #acd373;
+    font-size: 13px;
+    color: #acd373;
+    font-family: DroidSerif;
+    text-decoration: none;
+      padding: 7px 5px 5px 5px;
+}
+    
+}
+/*logo footer */
+
 .logos {
-height: 80px;
+   height: 80px;
+    width: 360px;
+    display: inline-block;
     background-color: #ebebeb;
 }
-.envato {
-padding-left: 20px;
-    padding-top: 30px;
-    display: inline-block;
+.logos img {
+padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
 }
+ 
+/* end logo section*/
+/* Begin Testimonial section*/
 .testimonials {
     width: 360px;
     height: 562px;
     background-image: url(images/background-02.jpg);
+    padding-top: 20px;
+    background-size: cover;
 }
 .quote-box {
 border: 2px solid #f7f7f7;
     width: 298px;
     height: 85px;
     margin: 0 auto;
+    
 }
 blockquote {
 padding-bottom: 10px;
     color: #f7f7f7;
     font-size: 13px;
     font-family: DroidSerif;
+}
+.circlejohn {
+    border-radius: 40px;
+}
+
+.client-quote p {
+color: rgba(247, 247, 247, 0.85);
+    font-size: 14.8px;
+    font-style: italic;
+
+}
+.client-quote h3 {
+    color:#acd373;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17.27px;
+    text-transform: uppercase;
+}
+.profile img, .client-quote {
+display: inline-block;
+    vertical-align: middle;
+}
+.profile h3 {
+margin-top: 0;
+    margin-bottom: 14px;
+}
+.profile {
+margin-left: 28px;
+    margin-top: 18px;
+}
+.client-quote {
+margin-left: 10px;
+}
+.dots li {
+display: inline-block; 
+}
+.dots {
+text-align: center;
+    padding-top: 40px;
+    padding-right: 33px;
+}
+.bottom-testimonial h1 {color: #f7f7f7;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+.bottom-testimonial p {
+color: #f7f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+    width: 296px;
+    height: 59px;
+}
+.bottom-testimonial a {
+border: 1px solid #acd373;
+    padding: 7px 5px 5px 5px;
+    font-size: 13px;
+    color: #acd373;
+    font-family: DroidSerif;
+    text-decoration: none;
+}
+.bottom-testimonial {
+padding-top: 80px;
+    display: block;
+    padding-left: 20px;
+}
+.blog {
+height: 665px;
+    background-color: #f7f7f7;
+    padding-top: 40px;   
+}
+.blog-heading {
+text-align: center;
+}
+.blog-heading h2 {
+font-family: 'Source Sans Pro',sans-serif;
+    color: #454545;
+    font-size: 18px;
+}
+.newsletter {
+    height: 62px;
+background-color: #acd373;
+    padding-top: 3px;
+}
+
+/* how to get the span iniline and wrapped with h2*/
+
+.newsletter > h2 {
+font-size: 14px;
+}
+.join-news {
+}
+.map {
+height: 129px;
+background-color: rgba(52, 59, 69, 0.45);
+}
+.contact {
+height: 450px;
+    background-color: #acd373;
+    padding-top: 20px;
+}
+.contact-heading h2 {
+color: #f7f7f7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.contact-heading {
+text-align: center;
+}
+/* Form section*/
+.form {
+padding-left: 20px;
+    display: block;
+}
+.name-title {
+color: whitesmoke;
+    font: italic 20.7px / 24px DroidSerif;
+}
+.email-info {
+color: whitesmoke;
+    font: italic 20.7px / 24px DroidSerif;
+}
+input,.email-info, .name-title {
+    background-color: #9abd67;
+    font-style: italic;
+    color: #f7f7f7;
+    width: 301px;
+    border: 0;
+    
+}
+.form h1 {
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 20px;
+    color: #f7f7f7;
+  
+}
+textarea {
+    background-color:#9abd67}
+placeholder {
+color: #f7f7f7;
+    border: 0;
+}
+.message-form{
+     width: 301px;
+color: #f7f7f7;
+    font: italic 14px / 22px DroidSerif;
+border: 0;
+}
+
+
+.sign-up-button {
+    width: 200px;
+vertical-align: top;
+    margin-top: 30px;
+}
+
+.submit-button {
+text-align: center;
+    padding-right: 10px;
+}
+.footer-social {
+height: 100px;
+    padding-top: 25px;
+    background-color: #9abd67;
+}
+.social {
+text-align: center}
+
+.social p {
+color: #f7f7f7;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
