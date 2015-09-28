@@ -472,6 +472,7 @@ padding-left: 22px;
 font-size: 13px;
     font-family: 'Source Sans Pro', sans-serif;
     padding-right: 20px;
+    width: 280px;
 }
 /* need to move the 'learn more' link */
 
@@ -575,7 +576,15 @@ font-family: DroidSerif;
    font-size: 12px;
     text-align: center;
 }
-
+.container .arrow-left {
+    position: relative;
+    top: 120px;
+}
+.container .arrow-right {
+position: relative;
+    left: 310px;
+    top: 120px;
+}
 .teammates {
     position: relative;
     width: 200px;
@@ -680,13 +689,34 @@ font-size: 13px;
 
 /* Recent works image*/
 .wrapper {
+    margin-top: 30px;
 text-align: center;
+}
+.letoy-image {
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+height: 80px;
+    width: 300px;
+    background-color: #ebebeb;
+}
+.letoy {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+/* Need to close gap between letoy and web-design*/
+
+.web-design {
+font: italic 13px DroidSerif;
+    
 }
 .view-work {
-padding-top: 30px;
 text-align: center;
 }
-.view-work a {border: 1px solid #acd373;
+.view-work a {
+    border: 1px solid #acd373;
     font-size: 13px;
     color: #acd373;
     font-family: DroidSerif;
@@ -694,7 +724,6 @@ text-align: center;
       padding: 7px 5px 5px 5px;
 }
     
-}
 /*logo footer */
 
 .logos {
@@ -708,6 +737,7 @@ padding-top: 10px;
     padding-left: 25px;
     padding-bottom: 10px;
 }
+/* Need fix logo positioning, looks crooked*/
  
 /* end logo section*/
 /* Begin Testimonial section*/
@@ -731,6 +761,16 @@ padding-bottom: 10px;
     font-size: 13px;
     font-family: DroidSerif;
 }
+.quote-box .quote-img {
+position: relative;
+    bottom: 45px;
+        left: 250px;
+}
+.ribbon {
+position: relative;
+right: 28px;
+bottom: 10px;
+}
 .circlejohn {
     border-radius: 40px;
 }
@@ -750,6 +790,7 @@ color: rgba(247, 247, 247, 0.85);
 .profile img, .client-quote {
 display: inline-block;
     vertical-align: middle;
+    margin-top: 15px;
 }
 .profile h3 {
 margin-top: 0;
@@ -796,31 +837,101 @@ padding-top: 80px;
     display: block;
     padding-left: 20px;
 }
+/* BLog beginning*/
+
 .blog {
 height: 665px;
     background-color: #f7f7f7;
-    padding-top: 40px;   
+    padding-top: 30px;   
 }
 .blog-heading {
 text-align: center;
+    width: 350px;
+    margin: 0 auto;
 }
 .blog-heading h2 {
 font-family: 'Source Sans Pro',sans-serif;
     color: #454545;
     font-size: 18px;
+    text-transform: uppercase;
 }
+/* BLog needs work, nothing is lining up correctly*/
+.blog-post{
+display: inline-block;
+    width: 160px;
+    height: 168px;
+    margin-left: 12px;
+    background-color: #ebebeb;
+    position: relative;
+}
+
+.green_circle {
+    width: 35px;
+    height: 35px;
+    background-color: #acd373;
+    border: 4px solid #ebebeb;
+    border-radius: 100%;
+    position: relative;
+    top: -29px;
+    left: 62px;
+    
+
+}
+
+.green_circle img {
+    display:block;
+    margin: 0px auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog-title {
+color: #454545;
+    font:  12px 'Source Sans Pro', sans-serif;
+    text-align: center;
+    position: relative;
+    top: -30px;
+}
+
+.blog-post a {
+    display: block;
+    height: 20px;
+    background-color: #acd373;
+    text-align: center;
+    color: #f2f5f0;
+    font-family: DroidSerif;
+    font-style: italic;
+    font-size: 8.33px;
+    padding-top: 9px;
+    text-decoration: none;
+    position: relative;
+    top: inherit;
+
+}
+
 .newsletter {
-    height: 62px;
+    height: 50px;
 background-color: #acd373;
-    padding-top: 3px;
+  padding-top: 24px;
 }
 
 /* how to get the span iniline and wrapped with h2*/
 
 .newsletter > h2 {
-font-size: 14px;
+font-size: 12px;
+ margin-left: 5px;
+    color: #f7f7f7;
+    display: inline;
+    
 }
-.join-news {
+.email input {  
+  margin-left: 5px;
+display: inline;
+    font-family: 'Source Sans Pro';
+   width: 109px;
+    border: 2px solid #f7f7f7;
+    background-color: #acd373;
 }
 .map {
 height: 129px;
@@ -858,8 +969,7 @@ input,.email-info, .name-title {
     font-style: italic;
     color: #f7f7f7;
     width: 301px;
-    border: 0;
-    
+    border: 0;  
 }
 .form h1 {
 font-family: 'Source Sans Pro', sans-serif;
@@ -868,10 +978,12 @@ font-size: 20px;
   
 }
 textarea {
-    background-color:#9abd67}
-placeholder {
-color: #f7f7f7;
-    border: 0;
+    background-color:#9abd67;
+}
+
+input::-webkit-input-placeholder {
+   color: #f7f7f7;
+    font-size: 14px;
 }
 .message-form{
      width: 301px;
@@ -889,7 +1001,7 @@ vertical-align: top;
 
 .submit-button {
 text-align: center;
-    padding-right: 10px;
+    padding-right: 15px;
 }
 .footer-social {
 height: 100px;
@@ -904,3 +1016,4 @@ color: #f7f7f7;
     font-size: 12px;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
