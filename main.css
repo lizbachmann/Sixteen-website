@@ -856,13 +856,14 @@ font-family: 'Source Sans Pro',sans-serif;
     text-transform: uppercase;
 }
 /* BLog needs work, nothing is lining up correctly*/
-.blog-post{
+.blog-post {
 display: inline-block;
     width: 160px;
     height: 168px;
     margin-left: 12px;
     background-color: #ebebeb;
     position: relative;
+    margin-top: 12px;
 }
 
 .green_circle {
@@ -874,8 +875,6 @@ display: inline-block;
     position: relative;
     top: -29px;
     left: 62px;
-    
-
 }
 
 .green_circle img {
