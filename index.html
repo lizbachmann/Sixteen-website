@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 </head>  
 <body>
   <!-- navigation and logo -->
@@ -45,7 +46,7 @@
    
     <section class="services_section">
         <div class="heading">
-            <h1 id="our">OUR<span id="green">SERVICES</span></h1>
+            <h1 id="our">OUR<span>SERVICES</span></h1>
             <h3>“Asperiores ea commodi eius a quo omnis esse”</h3>
             <img class="ellipsebar" src="images/ellipse-black.png" alt="black sepretor">
         </div>
@@ -80,7 +81,7 @@
     <div class="service-img">
      <img src="images/monitiorlogo.png" alt="super small monitor pic">
     </div>
-    <div class="service-info">
+    <div class="service-infos">
           <h2> web design & development</h2>
           <p>inventore nesciunt velit voluptas ac santium harum temporibus</p>       
           </div> 
@@ -145,7 +146,7 @@
 </section>
     <section class="footer">
         <p>Are you the next? Join us</p>
-     <a href="#" class="We are Hiring!">Learn More</a>    
+     <a href="#" class="We are Hiring!">We Are Hiring!</a>    
     </section>
 
 <!--Begin Our recent works section -->
@@ -168,11 +169,11 @@
     </section>
 <section class="logos">
     <img src="images/envatologo.png" class="envato">
-    <img src="images/themeforestlogo.png" class="envato">
+    <img src="images/themeforestlogo.png" class="forest">
 </section>
  <!--testimonial section -->
 <section class="testimonials">
-  
+  <div class="top-testimonial">
    <!--testimonial section  -->
     <div class="quote-box">
         <blockquote>Quisquam eveniet quod incidunt ex, autem, ipsam est quam illo et! Nulla laborum exercitationem illum</blockquote>
@@ -185,7 +186,7 @@
         
         <div class="client-quote">
             <h3>John Doe</h3>
-        <p>smashingmagazine.com</p>
+        <a href="#">smashingmagazine.com</a>
         </div>
          </div>
         <div class="dots">
@@ -201,6 +202,7 @@
                 </li>
             </ul>
         </div>
+     </div>
     <div class="bottom-testimonial">
         <h1>testimonial</h1>
         <p>Optio corporis fuga mollitia sit magni ut quasi consequuntur aut iste aspernatur totam similiue sint. Harum voluptas vero iste. itaque et in sit eveniet acusamus quibusdam cupiditate</p>
@@ -226,9 +228,8 @@
                     <p>Web Design Fundamentals</p>
                 </div>
                  <!--this will be a green box -->
-                  <div class="green-box">
                 <a href="#">Read More</a>
-                </div>
+                
             </div>
             <!--End Single Blog Entry 1-->
             <div class="blog-post">
@@ -276,9 +277,9 @@
     <!-- begin newsletter section -->
 <section class="newsletter">
     <h2 class="email">Join Our Newsletter for article Update
-    <input type="url" class="newsletter-email"></h2>
-   
-
+        <input type="url" class="newsletter-email" placeholder="example@gmail.com">
+    <img src="images/form.png" alt="form-email" class="form-image"></h2>
+    
     </section>
        
     <!--begin map section -->
@@ -295,12 +296,12 @@
  <!--begin form section --> 
    <div class="form">
     <form class="contact-us">
-        <h1 class="name">Name</h1>
-        <input type="text" class="name-title" placeholder="Liz Bachmann">
-        <h1 class="email-form">E-mail</h1>
-        <input type="url" class="email-info" placeholder="lbachmann06@gmail.com">
-        <h1 class="message">Message</h1>
-        <textarea name="comments" cols="36" rows="3" class="message-form">Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you..</textarea>
+        <label>Name</label>
+        <input type="text" class="name-title" placeholder="Liz Bachmann"></label>
+        <label>E-mail
+        <input type="url" class="email-info" placeholder="lbachmann06@gmail.com"></label>
+        <label>Message
+        <textarea name="comments" cols="36" rows="3" class="message-form">Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in you..</textarea></label>
   <div class="submit-button">
          <input type="submit" value="Send" class="sign-up-button">
 
