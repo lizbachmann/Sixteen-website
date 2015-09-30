@@ -407,6 +407,7 @@ html {
 }
 body {
   width: 360px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -429,11 +430,11 @@ header .logo {
 
 .greeting h1{
   margin-top: 0;
-    font-family:'Source Sans Pro', sans-serif;
     font-size:20px;
+    text-transform: uppercase;
 }
 span {
-font: italic 13px DroidSerif;
+font: italic 13px Droidserif;
 }
 .arrow {
 padding-top:50px;
@@ -453,11 +454,10 @@ div.sixteen {
 .who-we-are {
     height: 500px;
     background-color: #f7f7f7;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 /* fonts are incorrect*/
 .iphone {
-padding: 40px 140px ;
+padding: 35px 140px ;
 }
 
 #title {
@@ -472,9 +472,9 @@ padding-left: 22px;
 }
 .who-we-are p {
 font-size: 13px;
-    font-family: 'Source Sans Pro', sans-serif;
-    padding-right: 20px;
-    width: 280px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 320px;
 }
 /* need to move the 'learn more' link */
 
@@ -497,7 +497,8 @@ border: 1px solid #acd373;
 text-align: center;
 }
 .heading h1 {
-font:  20px 'Source Sans Pro', sans-serif;}
+font-size: 22px;
+}
 .heading span {
 color: #acd373;
     font-size: 20px;
@@ -512,7 +513,7 @@ color: #454545;
 .services_section {
     height: 500px;
     background-color: #f7f7f7;
-    padding-top: 10px;
+    padding-top: 1px;
 }
 
 .services ul {
@@ -520,9 +521,7 @@ list-style-type: none;
     margin: 0 auto; 
     padding: 0;
 }
-.services {
-margin-top: 15px;
-}
+
 .service-icon h2 {
     font-family: 'Source Sans Pro' sans-serif;
     font-size: 12px;
@@ -537,34 +536,27 @@ margin-top: 15px;
     margin-left: 13px;
 }
 .service-info {
-    width: 204px;
+    width: 214px;
     display: inline-block;
     vertical-align: top;
     margin-left: 28px;
 }
 .service-infos {
- width: 204px;
+ width: 214px;
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
-}
-.service-infos p {
-    position: relative;
-    bottom: 7px;
-    height: 29px;
-    font-size: 11px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
 }
 .service-info p {
        position: relative;
     bottom: 7px;
-height: 29px;
-    font-size: 11px;
-    font-family: 'Source Sans Pro', sans-serif;
+height: 41px;
+    font-size: 13px;
 }
 
 .service-icon {
-padding-top: 20px;
+padding-top: 15px;
     padding-left: 24px;
 } 
 
@@ -594,7 +586,6 @@ color: #f7f7f7;
 }
 
 .meetteam > h1 {
-    font-family:'Source Sans Pro', sans-serif;
     font-size: 20.54px;
     text-transform: uppercase;
     text-align: center;
@@ -626,23 +617,18 @@ position: absolute;
     border-radius: 20px;
     margin: 50px auto;
 }
-/*.teammates ceo {
-position: absolute;
-top: -45px;
-left: 58px;
-} */
+
 .john-doe {
 font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
     color: #acd373;
-    padding-left: 59px;
+    padding-left: 36%;
     position: relative;
     top: 10px;
 }
 .job-role {
     padding-top: 45px;
   margin: -20px;
-    padding-left: 20px;
 }
 .job-title {
       position: relative;
@@ -650,7 +636,7 @@ font-family: 'Source Sans Pro', sans-serif;
 font-family: DroidSerif;
     color: #787878;
     font-size: 12px;
-    padding-left: 54px;
+    padding-left: 34%;
 }
 
 .ceo {
@@ -678,24 +664,25 @@ padding-top: 14px;
 /* Meet the team footer*/
 
 .footer {
-    padding-top: 23px;
-    height: 35px;
+    padding-top: 10px;
+    height: 40px;
      background-color: #9abd67;
     
 }
 .footer p {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 13px;
     color: #f7f7f7;
     display: inline;
-    margin-left: 16px;
+    margin-left: 30px;
 }
 .footer a {
 border: 1px solid #f7f7f7;
-    font-size: 13px;
+    font-size: 12px;
     color: #f7f7f7;
     font-family: DroidSerif;
     text-decoration: none;
-      padding: 9px 5px 5px 5px;
+      padding: 7px 5px 5px 5px;
         margin-left: 30px;
 }
 
@@ -704,7 +691,7 @@ border: 1px solid #f7f7f7;
 .our-work {
 height: 520px;
     background-color: #f7f7f7;
-padding-top: 30px;
+padding-top: 20px;
 }
 .recent-works {
 text-align: center;
@@ -728,13 +715,13 @@ font-size: 13px;
 
 /* Recent works image*/
 .wrapper {
-    margin-top: 30px;
+    margin-top: 20px;
 text-align: center;
 }
 .letoy-image {
     position: relative;
     left: 30px;
-    bottom: 80px;
+    bottom: 70px;
 height: 80px;
     width: 300px;
     background-color: #ebebeb;
@@ -971,7 +958,6 @@ color: #454545;
 .newsletter {
     height: 50px;
 background-color: #acd373;
-  padding-top: 12px;
 }
 
 /* how to get the span iniline and wrapped with h2*/
@@ -984,11 +970,11 @@ font-size: 11px;
     
 }
 .email input { 
-    height: 19px;
+    height: 25px;
   margin-left: 5px;
 display: inline;
     font-family: 'Source Sans Pro';
-   width: 109px;
+   width: 129px;
     border: 2px solid #f7f7f7;
     background-color: #acd373;
 }
