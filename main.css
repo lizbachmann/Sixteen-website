@@ -698,14 +698,12 @@ text-align: center;
 }
 .recent-works h1 {
  color: #454545;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
 }
 .recent-works span {
 color: #acd373;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
 }
 .recent-works p {
@@ -727,7 +725,6 @@ height: 80px;
     background-color: #ebebeb;
 }
 .letoy {
-    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     padding-top: 10px;
 }
@@ -1014,12 +1011,12 @@ padding-bottom: 3px;
 }
 .name-title {
 color: whitesmoke;
-    font: italic 20.7px / 24px DroidSerif;
+    font: italic 12px / 24px DroidSerif;
     margin-left: 15px;
 }
 .email-info {
 color: whitesmoke;
-    font: italic 20.7px / 24px DroidSerif;
+    font: italic 12px / 24px DroidSerif;
 }
 
 input,.email-info, .name-title {
@@ -1032,11 +1029,12 @@ input,.email-info, .name-title {
 textarea {
     background-color:#9abd67;
     margin-top: 3px;
+    color: #f7f7f7;
 }
 
 input::-webkit-input-placeholder {
    color: #f7f7f7;
-    font-size: 12px;
+    font-size: 11px;
 }
 .message-form{
      width: 301px;
